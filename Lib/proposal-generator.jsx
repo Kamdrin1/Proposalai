@@ -457,7 +457,7 @@ Under 400 words. No fluff.`, [biz.trade, ctx]);
       <div className="lp-outer">
         <div className="lp-lid">
           <div className="lp-cambar"><div className="lp-cam" /></div>
-          <div className="lp-screen"><AppContent /></div>
+          <div className="lp-screen">{AppContent()}</div>
         </div>
         <div className="lp-base"><div className="lp-pad" /></div>
       </div>
